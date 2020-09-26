@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gs76IRSGNstlkijBKIuUGmvV6ePNYv9rX2we278re5mm4yq4I2lQoF1rQ+3poiwwmTbfQaJbC4OQqL0aiSh0BQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dellxps\\Desktop\\MHS_IT\\Proj\\PJECOM\\NetEcom\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dellxps\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dellxps\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
