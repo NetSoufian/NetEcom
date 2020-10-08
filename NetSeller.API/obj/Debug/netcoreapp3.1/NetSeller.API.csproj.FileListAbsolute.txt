@@ -60,3 +60,5 @@ C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netc
 C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
