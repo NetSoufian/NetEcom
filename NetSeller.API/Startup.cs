@@ -14,7 +14,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
+using NetSeller.API.Errors;
 using NetSeller.API.Helpers;
+using NetSeller.API.Middleware;
+using NetSeller.API.Extensions;
 
 namespace NetSeller.API
 {
@@ -32,18 +36,17 @@ namespace NetSeller.API
         {
             services.AddControllers();
             services.AddDbContext<StoreContext>(x => x.UseSqlite("BD"));
-            services.AddScoped<IProductRepository, ProductRepository>();
-            services.AddScoped(typeof(IGenericRepository<>), (typeof(GenericRepository<>)));
             services.AddAutoMapper(typeof(MappingProfiles));
+            services.AddApplicationServices();
+            services.AddSwaggerDocumentation();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            app.UseMiddleware<ExceptionMiddleware>();
+
+            app.UseStatusCodePagesWithReExecute(("/errors/{0}"));
 
             app.UseHttpsRedirection();
 
@@ -53,6 +56,8 @@ namespace NetSeller.API
 
             app.UseAuthorization();
 
+            app.UseSwaggerDocumentation();
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

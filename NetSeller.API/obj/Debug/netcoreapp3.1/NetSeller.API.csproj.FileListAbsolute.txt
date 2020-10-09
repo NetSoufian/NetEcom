@@ -62,3 +62,8 @@ C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netc
 C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Core.pdb
 C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\obj\Debug\netcoreapp3.1\NetSeller.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dellxps\Desktop\MHS_IT\Proj\PJECOM\NetEcom\NetSeller.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
